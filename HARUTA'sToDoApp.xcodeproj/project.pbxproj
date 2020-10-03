@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4138BB1D251CD768006371DA /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138BB1C251CD768006371DA /* NextViewController.swift */; };
 		413A09F0251C877700607337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A09EF251C877700607337 /* AppDelegate.swift */; };
 		413A09F2251C877700607337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A09F1251C877700607337 /* SceneDelegate.swift */; };
 		413A09F4251C877700607337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A09F3251C877700607337 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4138BB1C251CD768006371DA /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		413A09EC251C877700607337 /* HARUTA'sToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HARUTA'sToDoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		413A09EF251C877700607337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		413A09F1251C877700607337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				413A09EF251C877700607337 /* AppDelegate.swift */,
 				413A09F1251C877700607337 /* SceneDelegate.swift */,
 				413A09F3251C877700607337 /* ViewController.swift */,
+				4138BB1C251CD768006371DA /* NextViewController.swift */,
 				413A09F5251C877700607337 /* Main.storyboard */,
 				413A09F8251C877C00607337 /* Assets.xcassets */,
 				413A09FA251C877C00607337 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				413A09F4251C877700607337 /* ViewController.swift in Sources */,
+				4138BB1D251CD768006371DA /* NextViewController.swift in Sources */,
 				413A09F0251C877700607337 /* AppDelegate.swift in Sources */,
 				413A09F2251C877700607337 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shunta-udemy.HARUTA-sToDoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shunta-udemy.HARUTA-sToDoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
